@@ -9,6 +9,16 @@
 #import <Cocoa/Cocoa.h>
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
+{
+    NSDictionary *ConfigPlist;
+    NSString     *DefaultType;
+    
+}
+@property  NSMutableArray *Users;
+
+
+@property (weak) IBOutlet NSTableView *TABLE;
+@property(readwrite, retain) NSStatusItem *statusItem;
 
 
 @end

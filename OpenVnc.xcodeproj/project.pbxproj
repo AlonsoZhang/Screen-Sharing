@@ -11,16 +11,28 @@
 		041DEA041E077323003CCCBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 041DEA031E077323003CCCBA /* main.m */; };
 		041DEA061E077323003CCCBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041DEA051E077323003CCCBA /* Assets.xcassets */; };
 		041DEA091E077323003CCCBA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041DEA071E077323003CCCBA /* MainMenu.xib */; };
+		042E29291E738E4900D37A86 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 042E29281E738E4900D37A86 /* Config.plist */; };
+		042E29301E738F1000D37A86 /* Alonso.plist in Resources */ = {isa = PBXBuildFile; fileRef = 042E292F1E738F1000D37A86 /* Alonso.plist */; };
+		042E29321E739DB900D37A86 /* Baker.plist in Resources */ = {isa = PBXBuildFile; fileRef = 042E29311E739DB900D37A86 /* Baker.plist */; };
+		04F29DB51E728937005E7D3A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F29DB41E728937005E7D3A /* icon.png */; };
+		04F29DB81E728A4B005E7D3A /* remove.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F29DB61E728A4B005E7D3A /* remove.png */; };
+		04F29DB91E728A4B005E7D3A /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F29DB71E728A4B005E7D3A /* add.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		041DE9FC1E077323003CCCBA /* TEST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TEST.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		041DE9FC1E077323003CCCBA /* OpenVnc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenVnc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		041DE9FF1E077323003CCCBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		041DEA001E077323003CCCBA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		041DEA031E077323003CCCBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		041DEA051E077323003CCCBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		041DEA081E077323003CCCBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		041DEA0A1E077323003CCCBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042E29281E738E4900D37A86 /* Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
+		042E292F1E738F1000D37A86 /* Alonso.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Alonso.plist; sourceTree = "<group>"; };
+		042E29311E739DB900D37A86 /* Baker.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Baker.plist; sourceTree = "<group>"; };
+		04F29DB41E728937005E7D3A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		04F29DB61E728A4B005E7D3A /* remove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = remove.png; sourceTree = "<group>"; };
+		04F29DB71E728A4B005E7D3A /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +57,7 @@
 		041DE9FD1E077323003CCCBA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				041DE9FC1E077323003CCCBA /* TEST.app */,
+				041DE9FC1E077323003CCCBA /* OpenVnc.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,8 +65,12 @@
 		041DE9FE1E077323003CCCBA /* TEST */ = {
 			isa = PBXGroup;
 			children = (
+				04F29DB61E728A4B005E7D3A /* remove.png */,
+				04F29DB71E728A4B005E7D3A /* add.png */,
+				04F29DB41E728937005E7D3A /* icon.png */,
 				041DE9FF1E077323003CCCBA /* AppDelegate.h */,
 				041DEA001E077323003CCCBA /* AppDelegate.m */,
+				042E292E1E738EEE00D37A86 /* Plist */,
 				041DEA051E077323003CCCBA /* Assets.xcassets */,
 				041DEA071E077323003CCCBA /* MainMenu.xib */,
 				041DEA0A1E077323003CCCBA /* Info.plist */,
@@ -71,12 +87,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		042E292E1E738EEE00D37A86 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				042E29281E738E4900D37A86 /* Config.plist */,
+				042E292F1E738F1000D37A86 /* Alonso.plist */,
+				042E29311E739DB900D37A86 /* Baker.plist */,
+			);
+			name = Plist;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		041DE9FB1E077320003CCCBA /* TEST */ = {
+		041DE9FB1E077320003CCCBA /* OpenVnc */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 041DEA0D1E077323003CCCBA /* Build configuration list for PBXNativeTarget "TEST" */;
+			buildConfigurationList = 041DEA0D1E077323003CCCBA /* Build configuration list for PBXNativeTarget "OpenVnc" */;
 			buildPhases = (
 				041DE9F81E077320003CCCBA /* Sources */,
 				041DE9F91E077320003CCCBA /* Frameworks */,
@@ -86,9 +112,9 @@
 			);
 			dependencies = (
 			);
-			name = TEST;
+			name = OpenVnc;
 			productName = TEST;
-			productReference = 041DE9FC1E077323003CCCBA /* TEST.app */;
+			productReference = 041DE9FC1E077323003CCCBA /* OpenVnc.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -97,7 +123,7 @@
 		041DE9F41E077320003CCCBA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Wistron;
 				TargetAttributes = {
 					041DE9FB1E077320003CCCBA = {
@@ -106,7 +132,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 041DE9F71E077320003CCCBA /* Build configuration list for PBXProject "TEST" */;
+			buildConfigurationList = 041DE9F71E077320003CCCBA /* Build configuration list for PBXProject "OpenVnc" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -119,7 +145,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				041DE9FB1E077320003CCCBA /* TEST */,
+				041DE9FB1E077320003CCCBA /* OpenVnc */,
 			);
 		};
 /* End PBXProject section */
@@ -129,8 +155,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042E29321E739DB900D37A86 /* Baker.plist in Resources */,
+				04F29DB51E728937005E7D3A /* icon.png in Resources */,
 				041DEA061E077323003CCCBA /* Assets.xcassets in Resources */,
+				04F29DB91E728A4B005E7D3A /* add.png in Resources */,
+				042E29301E738F1000D37A86 /* Alonso.plist in Resources */,
 				041DEA091E077323003CCCBA /* MainMenu.xib in Resources */,
+				04F29DB81E728A4B005E7D3A /* remove.png in Resources */,
+				042E29291E738E4900D37A86 /* Config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +210,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -200,7 +233,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -225,6 +258,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -241,7 +275,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};
@@ -274,7 +308,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		041DE9F71E077320003CCCBA /* Build configuration list for PBXProject "TEST" */ = {
+		041DE9F71E077320003CCCBA /* Build configuration list for PBXProject "OpenVnc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				041DEA0B1E077323003CCCBA /* Debug */,
@@ -283,13 +317,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		041DEA0D1E077323003CCCBA /* Build configuration list for PBXNativeTarget "TEST" */ = {
+		041DEA0D1E077323003CCCBA /* Build configuration list for PBXNativeTarget "OpenVnc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				041DEA0E1E077323003CCCBA /* Debug */,
 				041DEA0F1E077323003CCCBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

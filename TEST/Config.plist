@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DefaultType</key>
+	<string>Baker</string>
+	<key>Type</key>
+	<array>
+		<string>Baker</string>
+		<string>Alonso</string>
+	</array>
+	<key>InputPswScript</key>
+	<string>tell application &quot;Screen Sharing&quot;	activate	tell application &quot;System Events&quot;		keystroke &quot;%@&quot;		keystroke tab		keystroke &quot;%@&quot;		keystroke tab		keystroke return	end tellend tell</string>
+</dict>
+</plist>
