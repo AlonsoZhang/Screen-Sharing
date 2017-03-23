@@ -14,9 +14,10 @@
 		042E29291E738E4900D37A86 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 042E29281E738E4900D37A86 /* Config.plist */; };
 		042E29301E738F1000D37A86 /* Alonso.plist in Resources */ = {isa = PBXBuildFile; fileRef = 042E292F1E738F1000D37A86 /* Alonso.plist */; };
 		042E29321E739DB900D37A86 /* Baker.plist in Resources */ = {isa = PBXBuildFile; fileRef = 042E29311E739DB900D37A86 /* Baker.plist */; };
-		04F29DB51E728937005E7D3A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F29DB41E728937005E7D3A /* icon.png */; };
 		04F29DB81E728A4B005E7D3A /* remove.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F29DB61E728A4B005E7D3A /* remove.png */; };
 		04F29DB91E728A4B005E7D3A /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F29DB71E728A4B005E7D3A /* add.png */; };
+		E2CD09CB1E78C9D800F25EBE /* JFHotkeyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CD09CA1E78C9D800F25EBE /* JFHotkeyManager.m */; };
+		E2DCADDA1E827A0900187EEC /* D11.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2DCADD91E827A0900187EEC /* D11.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,9 +31,11 @@
 		042E29281E738E4900D37A86 /* Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
 		042E292F1E738F1000D37A86 /* Alonso.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Alonso.plist; sourceTree = "<group>"; };
 		042E29311E739DB900D37A86 /* Baker.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Baker.plist; sourceTree = "<group>"; };
-		04F29DB41E728937005E7D3A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		04F29DB61E728A4B005E7D3A /* remove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = remove.png; sourceTree = "<group>"; };
 		04F29DB71E728A4B005E7D3A /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		E2CD09C91E78C9D800F25EBE /* JFHotkeyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFHotkeyManager.h; sourceTree = "<group>"; };
+		E2CD09CA1E78C9D800F25EBE /* JFHotkeyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFHotkeyManager.m; sourceTree = "<group>"; };
+		E2DCADD91E827A0900187EEC /* D11.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = D11.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,14 +68,14 @@
 		041DE9FE1E077323003CCCBA /* TEST */ = {
 			isa = PBXGroup;
 			children = (
-				04F29DB61E728A4B005E7D3A /* remove.png */,
-				04F29DB71E728A4B005E7D3A /* add.png */,
-				04F29DB41E728937005E7D3A /* icon.png */,
 				041DE9FF1E077323003CCCBA /* AppDelegate.h */,
 				041DEA001E077323003CCCBA /* AppDelegate.m */,
+				E2CD09C91E78C9D800F25EBE /* JFHotkeyManager.h */,
+				E2CD09CA1E78C9D800F25EBE /* JFHotkeyManager.m */,
+				041DEA071E077323003CCCBA /* MainMenu.xib */,
+				0455CA7F1E78D7C500FF00B4 /* images */,
 				042E292E1E738EEE00D37A86 /* Plist */,
 				041DEA051E077323003CCCBA /* Assets.xcassets */,
-				041DEA071E077323003CCCBA /* MainMenu.xib */,
 				041DEA0A1E077323003CCCBA /* Info.plist */,
 				041DEA021E077323003CCCBA /* Supporting Files */,
 			);
@@ -92,9 +95,19 @@
 			children = (
 				042E29281E738E4900D37A86 /* Config.plist */,
 				042E292F1E738F1000D37A86 /* Alonso.plist */,
+				E2DCADD91E827A0900187EEC /* D11.plist */,
 				042E29311E739DB900D37A86 /* Baker.plist */,
 			);
 			name = Plist;
+			sourceTree = "<group>";
+		};
+		0455CA7F1E78D7C500FF00B4 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				04F29DB71E728A4B005E7D3A /* add.png */,
+				04F29DB61E728A4B005E7D3A /* remove.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,7 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				042E29321E739DB900D37A86 /* Baker.plist in Resources */,
-				04F29DB51E728937005E7D3A /* icon.png in Resources */,
+				E2DCADDA1E827A0900187EEC /* D11.plist in Resources */,
 				041DEA061E077323003CCCBA /* Assets.xcassets in Resources */,
 				04F29DB91E728A4B005E7D3A /* add.png in Resources */,
 				042E29301E738F1000D37A86 /* Alonso.plist in Resources */,
@@ -175,6 +188,7 @@
 			files = (
 				041DEA041E077323003CCCBA /* main.m in Sources */,
 				041DEA011E077323003CCCBA /* AppDelegate.m in Sources */,
+				E2CD09CB1E78C9D800F25EBE /* JFHotkeyManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

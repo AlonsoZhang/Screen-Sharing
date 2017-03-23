@@ -8,8 +8,18 @@
 	<array>
 		<string>Baker</string>
 		<string>Alonso</string>
+		<string>D11</string>
 	</array>
 	<key>InputPswScript</key>
-	<string>tell application &quot;Screen Sharing&quot;	activate	tell application &quot;System Events&quot;		keystroke &quot;%@&quot;		keystroke tab		keystroke &quot;%@&quot;		keystroke tab		keystroke return	end tellend tell</string>
+	<string>tell application &quot;Screen Sharing&quot;
+	activate
+	tell application &quot;System Events&quot;
+		keystroke &quot;%@&quot;
+		keystroke tab
+		keystroke &quot;%@&quot;
+		keystroke tab
+		keystroke return
+	end tell
+end tell</string>
 </dict>
 </plist>
