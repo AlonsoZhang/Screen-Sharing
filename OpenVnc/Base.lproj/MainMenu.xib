@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14109" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11762"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14109"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -690,7 +690,7 @@
             <windowCollectionBehavior key="collectionBehavior" canJoinAllSpaces="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="0.0" y="0.0" width="300" height="558"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1280" height="800"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1280" height="778"/>
             <value key="minSize" type="size" width="300" height="300"/>
             <value key="maxSize" type="size" width="300" height="1000"/>
             <view key="contentView" id="fag-4W-v2Y">
@@ -711,7 +711,7 @@
                                     <tableViewGridLines key="gridStyleMask" vertical="YES" dashed="YES"/>
                                     <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                     <tableColumns>
-                                        <tableColumn width="144.35546875" minWidth="40" maxWidth="1000" id="0yC-jf-zhh">
+                                        <tableColumn identifier="" width="144.35546875" minWidth="40" maxWidth="1000" id="0yC-jf-zhh">
                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" title="Station">
                                                 <font key="font" metaFont="smallSystem"/>
                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
@@ -727,7 +727,7 @@
                                                 <binding destination="ZAb-RT-r3P" name="value" keyPath="arrangedObjects.Station" id="aqO-8g-Kb4"/>
                                             </connections>
                                         </tableColumn>
-                                        <tableColumn width="110" minWidth="40" maxWidth="1000" id="i87-fK-6co">
+                                        <tableColumn identifier="" width="110" minWidth="40" maxWidth="1000" id="i87-fK-6co">
                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" title="IP">
                                                 <font key="font" metaFont="smallSystem"/>
                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
@@ -774,7 +774,7 @@
                             <action selector="add:" target="ZAb-RT-r3P" id="IVW-6o-q4w"/>
                         </connections>
                     </button>
-                    <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="rPC-na-oXH">
+                    <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rPC-na-oXH">
                         <rect key="frame" x="20" y="61" width="120" height="25"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="25" id="cYv-GY-2ie"/>
@@ -789,7 +789,7 @@
                             <binding destination="ZAb-RT-r3P" name="value" keyPath="selection.Station" id="xzh-Xi-DcF"/>
                         </connections>
                     </textField>
-                    <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="FkV-EI-LYo">
+                    <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FkV-EI-LYo">
                         <rect key="frame" x="150" y="61" width="110" height="25"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="110" id="7L4-HO-Z1x"/>
@@ -804,7 +804,7 @@
                             <binding destination="ZAb-RT-r3P" name="value" keyPath="selection.IP" id="oGT-uo-Ibn"/>
                         </connections>
                     </textField>
-                    <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="DUF-ci-4PB">
+                    <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DUF-ci-4PB">
                         <rect key="frame" x="20" y="26" width="120" height="25"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="25" id="G3J-7h-3rD"/>
@@ -819,7 +819,7 @@
                             <binding destination="ZAb-RT-r3P" name="value" keyPath="selection.Username" id="tcz-KG-6G4"/>
                         </connections>
                     </textField>
-                    <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="G7x-jc-Fed">
+                    <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="G7x-jc-Fed">
                         <rect key="frame" x="150" y="26" width="110" height="25"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="110" id="eIQ-KX-IXv"/>
@@ -848,7 +848,7 @@
                             <action selector="remove:" target="ZAb-RT-r3P" id="HIH-CN-RhV"/>
                         </connections>
                     </button>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="5Uv-ZP-cV1">
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Uv-ZP-cV1">
                         <rect key="frame" x="18" y="4" width="264" height="17"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="17" id="UTH-bz-vk2"/>

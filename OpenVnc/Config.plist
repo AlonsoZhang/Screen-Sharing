@@ -3,12 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>DefaultType</key>
-	<string>Baker</string>
+	<string>Alonso</string>
 	<key>Type</key>
 	<array>
-		<string>Baker</string>
+		<string>Kaola</string>
 		<string>Alonso</string>
-		<string>D11</string>
 	</array>
 	<key>InputPswScript</key>
 	<string>tell application &quot;Screen Sharing&quot;

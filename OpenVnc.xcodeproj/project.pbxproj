@@ -12,12 +12,11 @@
 		041DEA061E077323003CCCBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041DEA051E077323003CCCBA /* Assets.xcassets */; };
 		041DEA091E077323003CCCBA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041DEA071E077323003CCCBA /* MainMenu.xib */; };
 		042E29291E738E4900D37A86 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 042E29281E738E4900D37A86 /* Config.plist */; };
-		042E29301E738F1000D37A86 /* Alonso.plist in Resources */ = {isa = PBXBuildFile; fileRef = 042E292F1E738F1000D37A86 /* Alonso.plist */; };
-		042E29321E739DB900D37A86 /* Baker.plist in Resources */ = {isa = PBXBuildFile; fileRef = 042E29311E739DB900D37A86 /* Baker.plist */; };
 		04F29DB81E728A4B005E7D3A /* remove.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F29DB61E728A4B005E7D3A /* remove.png */; };
 		04F29DB91E728A4B005E7D3A /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F29DB71E728A4B005E7D3A /* add.png */; };
+		E29E752020A02B9C00ECAFA2 /* Alonso.plist in Resources */ = {isa = PBXBuildFile; fileRef = E29E751F20A02B9C00ECAFA2 /* Alonso.plist */; };
+		E29E752220A02BAA00ECAFA2 /* Kaola.plist in Resources */ = {isa = PBXBuildFile; fileRef = E29E752120A02BAA00ECAFA2 /* Kaola.plist */; };
 		E2CD09CB1E78C9D800F25EBE /* JFHotkeyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CD09CA1E78C9D800F25EBE /* JFHotkeyManager.m */; };
-		E2DCADDA1E827A0900187EEC /* D11.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2DCADD91E827A0900187EEC /* D11.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,13 +28,12 @@
 		041DEA081E077323003CCCBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		041DEA0A1E077323003CCCBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		042E29281E738E4900D37A86 /* Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
-		042E292F1E738F1000D37A86 /* Alonso.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Alonso.plist; sourceTree = "<group>"; };
-		042E29311E739DB900D37A86 /* Baker.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Baker.plist; sourceTree = "<group>"; };
 		04F29DB61E728A4B005E7D3A /* remove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = remove.png; sourceTree = "<group>"; };
 		04F29DB71E728A4B005E7D3A /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		E29E751F20A02B9C00ECAFA2 /* Alonso.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Alonso.plist; sourceTree = "<group>"; };
+		E29E752120A02BAA00ECAFA2 /* Kaola.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Kaola.plist; sourceTree = "<group>"; };
 		E2CD09C91E78C9D800F25EBE /* JFHotkeyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFHotkeyManager.h; sourceTree = "<group>"; };
 		E2CD09CA1E78C9D800F25EBE /* JFHotkeyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFHotkeyManager.m; sourceTree = "<group>"; };
-		E2DCADD91E827A0900187EEC /* D11.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = D11.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +50,7 @@
 		041DE9F31E077320003CCCBA = {
 			isa = PBXGroup;
 			children = (
-				041DE9FE1E077323003CCCBA /* TEST */,
+				041DE9FE1E077323003CCCBA /* OpenVnc */,
 				041DE9FD1E077323003CCCBA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,7 +63,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		041DE9FE1E077323003CCCBA /* TEST */ = {
+		041DE9FE1E077323003CCCBA /* OpenVnc */ = {
 			isa = PBXGroup;
 			children = (
 				041DE9FF1E077323003CCCBA /* AppDelegate.h */,
@@ -79,7 +77,7 @@
 				041DEA0A1E077323003CCCBA /* Info.plist */,
 				041DEA021E077323003CCCBA /* Supporting Files */,
 			);
-			path = TEST;
+			path = OpenVnc;
 			sourceTree = "<group>";
 		};
 		041DEA021E077323003CCCBA /* Supporting Files */ = {
@@ -94,9 +92,8 @@
 			isa = PBXGroup;
 			children = (
 				042E29281E738E4900D37A86 /* Config.plist */,
-				042E292F1E738F1000D37A86 /* Alonso.plist */,
-				E2DCADD91E827A0900187EEC /* D11.plist */,
-				042E29311E739DB900D37A86 /* Baker.plist */,
+				E29E751F20A02B9C00ECAFA2 /* Alonso.plist */,
+				E29E752120A02BAA00ECAFA2 /* Kaola.plist */,
 			);
 			name = Plist;
 			sourceTree = "<group>";
@@ -136,11 +133,12 @@
 		041DE9F41E077320003CCCBA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = Wistron;
 				TargetAttributes = {
 					041DE9FB1E077320003CCCBA = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8LP5KW6GHL;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -168,13 +166,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				042E29321E739DB900D37A86 /* Baker.plist in Resources */,
-				E2DCADDA1E827A0900187EEC /* D11.plist in Resources */,
 				041DEA061E077323003CCCBA /* Assets.xcassets in Resources */,
 				04F29DB91E728A4B005E7D3A /* add.png in Resources */,
-				042E29301E738F1000D37A86 /* Alonso.plist in Resources */,
+				E29E752020A02B9C00ECAFA2 /* Alonso.plist in Resources */,
 				041DEA091E077323003CCCBA /* MainMenu.xib in Resources */,
 				04F29DB81E728A4B005E7D3A /* remove.png in Resources */,
+				E29E752220A02BAA00ECAFA2 /* Kaola.plist in Resources */,
 				042E29291E738E4900D37A86 /* Config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,15 +212,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
@@ -263,15 +268,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
@@ -299,11 +312,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = TEST/Info.plist;
+				DEVELOPMENT_TEAM = 8LP5KW6GHL;
+				INFOPLIST_FILE = "$(SRCROOT)/OpenVnc/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Baker-Wang.TEST";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.zhangwu.openvnc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -311,11 +329,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = TEST/Info.plist;
+				DEVELOPMENT_TEAM = 8LP5KW6GHL;
+				INFOPLIST_FILE = "$(SRCROOT)/OpenVnc/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Baker-Wang.TEST";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.zhangwu.openvnc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};

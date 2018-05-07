@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  TEST
 //
-//  Created by MAC on 2016/12/19.
-//  Copyright © 2016年 Wistron. All rights reserved.
+//  Created by Alonso on 2016/12/19.
+//  Copyright © 2016年 Alonso. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -31,11 +31,11 @@
     //******************  set StatusBarItem  ******************
     [self StatusBarItem];
     
-    [self.Window setTitle:[NSString stringWithFormat:@"%@ --(option+A)",[ConfigPlist objectForKey:@"DefaultType"]]];
+    [self.Window setTitle:[NSString stringWithFormat:@"%@ --(option+S)",[ConfigPlist objectForKey:@"DefaultType"]]];
     
     hkm = [[JFHotkeyManager alloc] init];
 
-    [hkm bind:@"option a" target:self action:@selector(HotKeyChangeType)];
+    [hkm bind:@"option s" target:self action:@selector(HotKeyChangeType)];
     [hkm bind:@"option z" target:self action:@selector(HIDESHOW)];
     //[hkm bind:@"option s" target:self action:@selector(password)];
 }
@@ -168,7 +168,7 @@
     //******************  Chage self.Users ******************
     NSMutableArray *ArryFromPlist = [[NSMutableArray alloc] initWithContentsOfFile:[[NSBundle mainBundle]pathForResource:[ConfigPlist objectForKey:@"DefaultType"] ofType:@"plist"]];
     self.Users=([ArryFromPlist count]>0)?ArryFromPlist:[NSMutableArray new];
-    [self.Window setTitle:[NSString stringWithFormat:@"%@ --(option+A)",[ConfigPlist objectForKey:@"DefaultType"]]];
+    [self.Window setTitle:[NSString stringWithFormat:@"%@ --(option+S)",[ConfigPlist objectForKey:@"DefaultType"]]];
 }
 
 

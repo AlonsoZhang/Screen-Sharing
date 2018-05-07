@@ -3,7 +3,7 @@
 //  TEST
 //
 //  Created by MAC on 2016/12/19.
-//  Copyright © 2016年 Wistron. All rights reserved.
+//  Copyright © 2016年 Alonso. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>
